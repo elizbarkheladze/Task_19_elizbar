@@ -102,6 +102,8 @@ class ViewController: UIViewController {
         mailText.placeholder = "Email"
         mailText.layer.cornerRadius = 10
         mailText.backgroundColor = .systemGray4
+        mailText.layer.shadowRadius = 5
+        mailText.layer.shadowOpacity = 1.0
         
 
         view.addSubview(mailText)
@@ -134,6 +136,8 @@ class ViewController: UIViewController {
         passwordText.placeholder
         passwordText.layer.cornerRadius = 10
         passwordText.backgroundColor = .systemGray4
+        passwordText.layer.shadowRadius = 5
+        passwordText.layer.shadowOpacity = 1.0
         
 
         view.addSubview(passwordText)
@@ -165,6 +169,8 @@ class ViewController: UIViewController {
         loginBtn.setTitle("Log In", for: .normal)
         loginBtn.layer.cornerRadius = 10
         loginBtn.backgroundColor = .green
+        loginBtn.layer.shadowRadius = 5
+        loginBtn.layer.shadowOpacity = 1.0
         
 
         view.addSubview(loginBtn)
